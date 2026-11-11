@@ -40,7 +40,7 @@ Gaps are **leads, not proof**: they come from titles, abstracts and keywords. Al
 | Key | Where | Cost |
 |---|---|---|
 | `TELEGRAM_BOT_TOKEN` | In Telegram, message **@BotFather** → `/newbot` → copy the token | Free |
-| `OPENALEX_API_KEY` | Make an account at openalex.org → openalex.org/settings/api | Free key = $1/day of usage, about **100,000 papers/day** |
+| `OPENALEX_API_KEY` | Make an account at openalex.org → openalex.org/settings/api | Free key = $1/day of usage, about **10,000 papers/day** |
 | `ANTHROPIC_API_KEY` (optional) | console.anthropic.com | Roughly a few US cents per run with `claude-sonnet-5-5` |
 
 No AI key? The bot still works and writes template questions from the gap signals.
