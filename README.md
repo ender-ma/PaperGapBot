@@ -50,11 +50,10 @@ Biomedical / life-science niche? Add `europepmc` as a source. It is free and nee
 
 ```bash
 # in the folder you unzipped
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 cp .env.example .env
-nano .env            # paste your keys, save with Ctrl+O, Enter, Ctrl+X
 ```
 
 ### 3. Try the offline demo (no keys needed)
